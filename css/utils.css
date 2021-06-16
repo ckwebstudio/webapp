@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carmen Sans Regular';
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
+/* font sizing for headings */
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.7rem;
+    /* color: #545252; */
+    margin-bottom: 30px;
+}
+
+.message h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    /* color: #545252; */
+}
+
+.containerFluid {
+    width: 100%;
+    margin: auto;
+}
+
+.container80 {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.poRel {
+    position: relative;
+}
+
+
+/* magins */
+
+.my50 {
+    margin: 50px 0px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb60 {
+    margin-bottom: 40px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.py100 {
+    padding: 100px 0px;
+}
+
+.py40 {
+    padding: 40px 0px;
+}
+
+.py60 {
+    padding: 40px 0px;
+}
+
+.p40 {
+    padding: 40px;
+}
+
+.py10 {
+    padding: 10px 0px;
+}
+
+.py200 {
+    padding: 200px 0px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+.tCenter {
+    text-align: center;
+}
+
+
+/* grids */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.colWhite {
+    color: white;
+}
+
+.colBlack {
+    color: black!important;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.hide {
+    display: none!important;
+}
+
+
+/* brand colors */
+
+.facebook {
+    color: #3b5998;
+}
+
+.whatsapp {
+    color: #25d366;
+}
+
+.instagram {
+    color: #e1306c;
+}
+
+.pinterest {
+    color: #e60023;
+}
+
+.twitter {
+    color: #1da1f2;
+}
