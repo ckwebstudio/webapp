@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom fonts -->
+    <link rel="stylesheet" href="carmen-sans/style.css">
+    <link rel="stylesheet" href="hk-groteks/style.css">
+    <link rel="stylesheet" href="museo-sans/style.css">
+    <!-- csutom css -->
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cabin | Find Your Prefect Home</title>
+
+    <style>
+        body {
+            background: #F1EBEB;
+        }
+        
+        h2 {
+            color: #545252;
+        }
+        
+        p {
+            color: #545252;
+        }
+        
+        select {
+            padding: 10px;
+            font-family: HK Grotesk;
+            font-style: normal;
+            font-weight: 600;
+            outline: line;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="containerFluid">
+            <nav class="navmenu">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                    <p>Cabin</p>
+                </div>
+                <div class="menu">
+                    <div class="menuItems">
+                        <a href="">Listing</a>
+                    </div>
+                    <div class="menuItems">
+                        <a href="">Cards</a>
+                    </div>
+                    <div class="menuItems">
+                        <a href="">Agents</a>
+                    </div>
+                    <div class="menuItems">
+                        <a href="">Sell</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section>
+            <div class="containerFluid hero">
+                <!-- hero section will br here -->
+                <div class="container">
+                    <h1 class="colWhite tCenter">Your next home for less</h1>
+                    <div class="container mb60">
+                        <p class="colWhite tCenter">Buy a second home at a price that you prefer. It’s a quick, simple and straightforward process when purchasing a home with Cabin.</p>
+                    </div>
+
+                    <div class="searchSection">
+
+                        <div class="searchTop">
+                            <p id="purchage">Purchage</p>
+                            <p id="monthly">Monthly</p>
+                        </div>
+                        <div class="searchBar">
+                            <!-- purchage -->
+                            <div class="grid4 py10">
+                                <div class="searchColumns">
+                                    <p>City</p>
+                                    <select id="citylist" name="citylist">
+                                        <option value="Barcelona">Barcelona</option>
+                                        <option value="Berlin">Berlin</option>
+                                        <option value="London">London</option>
+                                        <option value="Los Angeles" selected>Los Angeles</option>
+                                        <option value="New York">New York</option>
+                                        <option value="Paris">Paris</option>
+                                        <option value="Toronto">Toronto</option>
+                                        <option value="Tokyo">Tokyo</option>
+                                    </select>
+
+                                </div>
+                                <div class="searchColumns">
+                                    <p>Bedroom</p>
+
+                                    <select id="bedroom" name="bedroom">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4" selected>4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+
+
+                                </div>
+                                <div class="searchColumns">
+                                    <p>Buget range</p>
+
+                                    <select id="bugetRange" name="bugetRange">
+                                        <option value="£100K-£300K" selected>£100K-£300K</option>
+                                        <option value="£300K-£500K">£300K-£500K</option>
+                                        <option value="£500K-£1M">£500K-£1M</option>
+                                        <option value="£1M+">£1M+</option>
+                                    </select>
+
+
+
+                                </div>
+                                <div class="searchColumns">
+                                    <div class="search">
+                                        <img src="img/search.png" alt="search icon">
+                                        <p>Search</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- purchage -->
+                            <!-- monthly -->
+                            <div class="grid4 hide">
+                                <div class="searchColumns">
+                                    <p>City</p>
+                                    <input list="citylist" name="city" id="city">
+
+                                    <datalist id="citylist">
+                                      <option value="Barcelona">
+                                      <option value="Berlin">
+                                      <option value="London">
+                                      <option value="Los Angeles">
+                                      <option value="New York">
+                                      <option value="Paris">
+                                      <option value="Toronto">
+                                      <option value="Tokyo">
+                                    </datalist>
+                                </div>
+                                <div class="searchColumns">
+                                    <p>Checkin</p>
+                                    <input list="checkinDate" name="checkin" id="checkin">
+
+                                    <datalist id="checkinDate">
+                                      <option value="1">
+                                    </datalist>
+                                </div>
+                                <div class="searchColumns">
+                                    <p>CheckOut</p>
+                                    <input list="checkOutDate" name="CheckOut" id="CheckOut">
+
+                                    <datalist id="checkOutDate">
+                                      <option value="£100K-£300K">
+                                    </datalist>
+                                </div>
+                                <div class="searchColumns">
+                                    <div class="search">
+                                        <img src="img/search.png" alt="search icon">
+                                        <p>Search</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- monthly -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section -->
+        <!-- grid section -->
+        <section>
+            <div class="containerFluid">
+                <div class="grid2 my50">
+
+                    <div class="column2">
+                        <div class="colContent">
+                            <h2>A new way to own a home</h2>
+                            <p>Own a fraction of a home for a fraction of the price, this allows you to stay in the home for a number of days a year and you still remain an owner of the property.</p>
+                            <img src="img/home/half-circle.png" alt="half-circle">
+                        </div>
+                    </div>
+                    <div class="column2 homeImage">
+                        <img src="img/home/house1.png" alt="house">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- grid section -->
+        <section>
+            <div class="container80 py200">
+                <h2 class="tCenter">How it works</h2>
+                <div class="grid3 my50">
+                    <div class="column3 p40">
+                        <div class="cardTop">
+                            <img src="img/home/house.png" alt="home icon">
+                            <h3>Search</h3>
+                        </div>
+                        <p>Search through one of our featured homes and find the perfect one for you. We offer services worldwide.</p>
+                    </div>
+                    <div class="column3 p40">
+                        <div class="cardTop">
+                            <img src="img/home/connect.png" alt="home icon">
+                            <h3>Search</h3>
+                        </div>
+                        <p>Make your payment for the property, we handle all the paperwork to make the whole process as simple as buying coffee.</p>
+                    </div>
+                    <div class="column3 p40">
+                        <div class="cardTop">
+                            <img src="img/home/key.png" alt="home icon">
+                            <h3>Search</h3>
+                        </div>
+                        <p>Book the nights you’d like to stay in the property on our dashboard section, it takes no more than a couple of minutes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- grid section -->
+        <section>
+            <div class="containerFluid">
+                <div class="grid2">
+                    <div class="column2 homeImage">
+                        <img src="img/home/house2.png" alt="house">
+                    </div>
+                    <div class="column2">
+                        <div class="colContent">
+                            <h2>We handle everything</h2>
+                            <p>When purchasing a home it comes with massive stress, with Cabin we eliminate that. We create a simple experience for people to own a second home with ease.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- grid section -->
+        <section>
+            <div class="containerFluid">
+                <div class="grid2">
+
+                    <div class="column2">
+                        <div class="colContent">
+                            <h2>Your home your control</h2>
+                            <p>We allow you to control your home within our dashboard, it’s super easy to use and everything only takes a couple of clicks.</p>
+                        </div>
+                    </div>
+                    <div class="column2 manImage">
+                        <img src="img/home/man.png" alt="man">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- message section -->
+        <section>
+            <div class="containerFluid">
+                <div class="message">
+                    <h2 class="tCenter">Helping you find your next place</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="containerFluid bgWhite">
+            <div class="container80 footer">
+                <div class="logoSection">
+                    <div class="logo">
+                        <img src="img/logo-black" alt="logo">
+                        <p class="colBlack">Cabin</p>
+                    </div>
+                    <p class="desc">Adventures in living.</p>
+                </div>
+                <div class="footerMenu">
+                    <div class="listMenu">
+                        <h3>Products</h3>
+                        <div class="lists">
+                            <p> <a href=""> Listing </a> </p>
+                            <p> <a href=""> Cards </a> </p>
+                            <p> <a href=""> Agents </a> </p>
+                            <p> <a href=""> Sell </a> </p>
+                        </div>
+                    </div>
+                    <div class="listMenu">
+                        <h3>Products</h3>
+                        <div class="lists socialList">
+                            <a href=""><img src="img/instagram.png" alt="instagram"></a>
+                            <a href=""><img src="img/twitter.png" alt="twitter"></a>
+                            <a href=""><img src="img/facebook.png" alt="facebook"></a>
+                        </div>
+                    </div>
+                    <div class="listMenu">
+                        <h3>Products</h3>
+                        <div class="lists">
+                            <p> <a href=""> Contact </a> </p>
+                            <p> <a href=""> FAQ </a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
